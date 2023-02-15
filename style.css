@@ -7,10 +7,6 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
 .column {
     float: center;
     width: 50%;
@@ -25,12 +21,6 @@ html {
 
 .container {
     padding: 25px 50px;
-}
-
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
   
 @media screen and (max-width: 600) {
